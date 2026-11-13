@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- estela -->
+    <path android:strokeColor="#F5C242" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M44,52 L26,62" />
+    <path android:strokeColor="#F08A24" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M46,58 L28,69" />
+    <path android:strokeColor="#E8352A" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M50,63 L33,75" />
+    <!-- bola cromada -->
+    <path android:pathData="M60,52m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="53" android:centerY="44"
+                android:gradientRadius="26">
+                <item android:offset="0" android:color="#FFFFFFFF" />
+                <item android:offset="0.25" android:color="#FFE6E9EE" />
+                <item android:offset="0.7" android:color="#FF8E959E" />
+                <item android:offset="1" android:color="#FF2E3238" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- estrella -->
+    <path android:fillColor="#FFD23A" android:strokeColor="#7A2A00" android:strokeWidth="1.2"
+        android:pathData="M60,39 L63.5,47.5 L72.5,48 L65.5,54 L67.8,62.8 L60,57.8 L52.2,62.8 L54.5,54 L47.5,48 L56.5,47.5 Z" />
+</vector>
